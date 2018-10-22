@@ -14,7 +14,7 @@ var app = new Vue({
             return {
                 width: this.width+'px',
                 height: this.height+'px',
-                backgroundColor: 'rgb('+parseInt(this.red,10)+','+parseInt(this.blue,10)+','+parseInt(this.green,10)+')',
+                backgroundColor: 'rgb('+parseInt(this.red,10)+','+parseInt(this.green,10)+','+parseInt(this.blue,10)+')',
                 borderRadius: this.borderRadius+'%'
             }
         }
